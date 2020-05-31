@@ -15,6 +15,7 @@
         <attr name="unReadBackground" format="reference"/>
         <!-- 未读消息距顶部的距离 -->
         <attr name="unReadNumTopMargin" format="dimension"/>
+        <!--  未读数字的最大值  -->
         <attr name="maxUnreadNum" format="integer"/>
         
     </declare-styleable>

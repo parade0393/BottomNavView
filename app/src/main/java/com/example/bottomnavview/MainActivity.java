@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavView.OnI
         bottomNavView.setmListText(mListText)
                 .setmListNormalIcons(mListNormalIcon)
                 .setmListSelectedIcons(mListSelectedIcon)
-                .setOnItemSelectedListener(this)
-                .setOnItemReSelectedListener(this)
+                .setOnItemSelectedListener(this)//选中事件监听，代表的是当一个 item 由 未选中状态 变成 选中状态 时的回调
+                .setOnItemReSelectedListener(this)//已选中状态下的事件监听，代表的是当一个 item 已经是选中状态 并且 又点击该 item 时的回调
                 .build();
 
         btnRead0.setOnClickListener(new View.OnClickListener() {
