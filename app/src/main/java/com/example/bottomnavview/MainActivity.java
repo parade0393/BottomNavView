@@ -4,21 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.parade.bottomNavView.BottomNavView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavView.OnItemSelectedListener, BottomNavView.OnItemReSelectedListener {
 
-    private Button btnRead0,btnRead1,btnRead2,btnRead3,btnItem;
+    private Button btnRead0,btnRead1,btnRead2,btnRead3;
     private BottomNavView bottomNavView;
 
     private String[] mListText = new String[]{"首页","消息","通讯录","我的"};
@@ -28,9 +22,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavView.OnI
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         btnRead0 = (Button) findViewById(R.id.btnRead0);
-        btnItem = (Button) findViewById(R.id.btnItem);
         btnRead1 = (Button) findViewById(R.id.btnRead1);
         btnRead2 = (Button) findViewById(R.id.btnRead2);
         btnRead3 = (Button) findViewById(R.id.btnRead3);
