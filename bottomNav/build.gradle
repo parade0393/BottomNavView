@@ -3,8 +3,8 @@ ext {
     bintrayName = 'com.parade.bottomNavView' // package name
 
     publishedGroupId = 'com.parade.bottomNavView'   // this is the ID we want to see in implementation line
-    libraryName = 'library'     // this is the module name of library
-    artifact = 'library'        // this is the artifact we want to see in implementation line
+    libraryName = 'bottomNav'     // this is the module name of library
+    artifact = 'bottomNav'        // this is the artifact we want to see in implementation line
 
     libraryDescription = 'An Android bottom navigation library' // description of library
 

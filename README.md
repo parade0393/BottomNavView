@@ -9,18 +9,18 @@ BottomNavView是一个简单的底部导航库，适合使用两套图，有图�
 1. Maven
 
    ```xml
-   <dependency>
-     <groupId>com.parade.bottomNavView</groupId>
-     <artifactId>library</artifactId>
-     <version>1.0.0</version>
-     <type>pom</type>
-   </dependency>
+      <dependency>
+        <groupId>com.parade.bottomNavView</groupId>
+        <artifactId>bottomNav</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+       </dependency>
    ```
 
    Gradle
 
    ```
-   implementation 'com.parade.bottomNavView:library:1.0.1'
+   implementation 'com.parade.bottomNavView:bottomNav:1.0.0'
    ```
 
 2. 从xml文件创建
