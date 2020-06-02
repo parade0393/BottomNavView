@@ -1,6 +1,6 @@
 ext {
-    bintrayRepo = 'BottomNavView' // Repo name in bintray dashboard
-    bintrayName = 'com.parade.bottomNavView' // package name of the bintray repo
+    bintrayRepo = 'BottomNavView' // Repository name
+    bintrayName = 'com.parade.bottomNavView' // package name
 
     publishedGroupId = 'com.parade.bottomNavView'   // this is the ID we want to see in implementation line
     libraryName = 'library'     // this is the module name of library
@@ -11,7 +11,7 @@ ext {
     siteUrl = 'https://github.com/parade0393/BottomNavView'    // git repo url
     gitUrl = 'https://github.com/parade0393/BottomNavView.git' // git repo vcs url
 
-    libraryVersion = '1.0.1'      // library version
+    libraryVersion = '1.0.0'      // library version
 
     developerId = 'parad0393'                // This is your bintray username
     developerName = 'parad0393'              // Developer's name
@@ -33,7 +33,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
