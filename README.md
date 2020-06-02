@@ -56,4 +56,3 @@ BottomNavView是一个简单的底部导航库，适合使用两套图，有图�
            .setOnItemReSelectedListener(this)//已选中状态下的事件监听，代表的是当一个 item 已经是选中状态 并且 又点击该 item 时的回调
            .build();
 </code></pre>
-
