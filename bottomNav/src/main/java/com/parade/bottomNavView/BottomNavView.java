@@ -204,7 +204,7 @@ public class BottomNavView extends LinearLayout implements View.OnClickListener 
         return (int) (0.5f + dpValue * Resources.getSystem().getDisplayMetrics().density);
     }
 
-    public  int sp2px(final float spValue) {
+    private int sp2px(final float spValue) {
         final float fontScale = Resources.getSystem().getDisplayMetrics().scaledDensity;
         return (int) (spValue * fontScale + 0.5f);
     }
